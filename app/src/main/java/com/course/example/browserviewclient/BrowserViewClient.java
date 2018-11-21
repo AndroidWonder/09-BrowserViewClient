@@ -13,11 +13,13 @@
 package com.course.example.browserviewclient;
 
 import android.app.Activity;
+import android.net.http.SslError;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnKeyListener;
+import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -50,6 +52,7 @@ public class BrowserViewClient extends Activity {
     	  
       });
 
+
       // Set button to open browser
       goButton.setOnClickListener(new OnClickListener() {
          public void onClick(View view) {
@@ -66,7 +69,6 @@ public class BrowserViewClient extends Activity {
          }
       });
    }
-
    
    //the back key navigates back to the previous web page
    @Override
