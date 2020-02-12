@@ -44,12 +44,11 @@ public class BrowserViewClient extends Activity {
       
       //intercept URL loading and load in widget
       webView.setWebViewClient(new WebViewClient(){
-    	  
+          @SuppressWarnings("deprecation")
     	  public boolean shouldOverrideUrlLoading(WebView view, String url){
     		  view.loadUrl(url);
     		  return true;
     	  }
-    	  
       });
 
 
