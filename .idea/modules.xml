@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/09-BrowserViewClient.iml" filepath="$PROJECT_DIR$/09-BrowserViewClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-BrowserViewClient.iml" filepath="$PROJECT_DIR$/09-BrowserViewClient.iml" group="09-BrowserViewClient" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="09-BrowserViewClient/app" />
     </modules>
   </component>
 </project>
