@@ -55,6 +55,8 @@ public class BrowserViewClient extends Activity {
         	 webView.loadUrl(urlText.getText().toString());
          }
       });
+
+      //set listener on EditText
       urlText.setOnKeyListener(new OnKeyListener() {
          public boolean onKey(View view, int keyCode, KeyEvent event) {
             if (keyCode == KeyEvent.KEYCODE_ENTER) {
