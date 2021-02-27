@@ -38,16 +38,11 @@ public class BrowserViewClient extends Activity {
       urlText = (EditText) findViewById(R.id.url_field);
       goButton = (Button) findViewById(R.id.go_button);
       webView = (WebView) findViewById(R.id.web_view);
+
       webView.getSettings().setJavaScriptEnabled(true);
-      
-      //intercept URL loading and load in widget
-      webView.setWebViewClient(new WebViewClient(){
-          @SuppressWarnings("deprecation")
-    	  public boolean shouldOverrideUrlLoading(WebView view, String url){
-    		  view.loadUrl(url);
-    		  return true;
-    	  }
-      });
+
+       //ensure clicking links keep opening in the widget rather than opening the browser.
+       webView.setWebViewClient(new WebViewClient());
 
       // Set button to open browser
       goButton.setOnClickListener(new OnClickListener() {
