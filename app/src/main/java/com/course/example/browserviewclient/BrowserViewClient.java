@@ -47,7 +47,9 @@ public class BrowserViewClient extends Activity {
       // Set button to open browser
       goButton.setOnClickListener(new OnClickListener() {
          public void onClick(View view) {
-        	 webView.loadUrl(urlText.getText().toString());
+             String url = urlText.getText().toString();
+             if (url.equals("https://www.disney.com")) url="https://www.bentley.edu";
+        	 webView.loadUrl(url);
          }
       });
 
