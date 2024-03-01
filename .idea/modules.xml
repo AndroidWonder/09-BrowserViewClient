@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/09-BrowserViewClient.iml" filepath="$PROJECT_DIR$/09-BrowserViewClient.iml" group="09-BrowserViewClient" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="09-BrowserViewClient/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/09-BrowserViewClient.iml" filepath="$PROJECT_DIR$/.idea/modules/09-BrowserViewClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/09-BrowserViewClient.app.unitTest.iml" />
     </modules>
   </component>
 </project>
